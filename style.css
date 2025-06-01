@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap');
+
+body {
+  
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+
+div.hero-background {
+     
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+  background-image: url('../IMG/photo_2025-05-24_06-51-50.jpg');
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  
+}
+
+img.profile {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #d9bba0;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  margin: 20px 0;
+  color: #6b4e3d;
+}
+
+.button {
+  display: block;
+  background-color: #e8d6c3;
+  color: #222;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin: 15px auto;
+  border-radius: 8px;
+  max-width: 300px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #d9bba0;
+}
